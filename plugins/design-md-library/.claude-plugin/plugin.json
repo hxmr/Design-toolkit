@@ -1,0 +1,6 @@
+{
+  "name": "design-md-library",
+  "description": "DESIGN.md design-system files from well-known brand sites, for building UI in a given visual language.",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "skills": "./skills/"
+}

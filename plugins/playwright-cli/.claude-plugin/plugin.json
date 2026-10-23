@@ -1,0 +1,6 @@
+{
+  "name": "playwright-cli",
+  "description": "Browser automation and Playwright testing through the playwright-cli command (requires: npm install -g @playwright/cli@latest).",
+  "repository": "https://github.com/microsoft/playwright-cli",
+  "skills": "./skills/"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "img2threejs",
+  "description": "Rebuild the object in a reference image as a procedural, animation-ready Three.js model (requires Python 3.10+ locally).",
+  "repository": "https://github.com/img2threejs/img2threejs",
+  "skills": "./skills/"
+}
