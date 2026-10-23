@@ -1,0 +1,14 @@
+{
+  "name": "design-toolkit",
+  "owner": { "name": "John" },
+  "metadata": {
+    "description": "Design and frontend skills collected from five upstream repositories, synced daily."
+  },
+  "plugins": [
+    { "name": "taste-skill", "source": "./plugins/taste-skill", "description": "Art direction for websites, product pages, dashboards and app screens, checked in a real browser.", "category": "design" },
+    { "name": "impeccable", "source": "./plugins/impeccable", "description": "Design fluency for frontend work: /impeccable polish, audit, critique and 21 more commands.", "category": "design" },
+    { "name": "playwright-cli", "source": "./plugins/playwright-cli", "description": "Browser automation and Playwright testing through the playwright-cli command.", "category": "development" },
+    { "name": "img2threejs", "source": "./plugins/img2threejs", "description": "Rebuild an object in a reference image as a procedural Three.js model.", "category": "development" },
+    { "name": "design-md-library", "source": "./plugins/design-md-library", "description": "DESIGN.md design-system files from well-known brand sites.", "category": "design" }
+  ]
+}
