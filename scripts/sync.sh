@@ -17,6 +17,7 @@ clone pbakaus/impeccable           impeccable
 clone microsoft/playwright-cli      playwright
 clone img2threejs/img2threejs       img2three
 clone VoltAgent/awesome-design-md   designmd
+clone NVIDIA/skillspector           skillspector
 
 P="$ROOT/plugins"
 rm -rf "$P"
@@ -113,6 +114,14 @@ EOF
 manifest "$P/design-md-library" design-md-library \
   "DESIGN.md design-system files from well-known brand sites, for building UI in a given visual language." \
   VoltAgent/awesome-design-md
+
+# 6. skill-inspector (NVIDIA SkillSpector; the scanner itself is installed with uv/pip)
+mkdir -p "$P/skill-inspector/skills"
+cp -R "$WORK/skillspector/skills/skill-inspector" "$P/skill-inspector/skills/skill-inspector"
+cp "$WORK/skillspector/LICENSE" "$P/skill-inspector/"
+manifest "$P/skill-inspector" skill-inspector \
+  "Security review of agent skills before installation with NVIDIA SkillSpector (requires: uv tool install git+https://github.com/NVIDIA/skillspector.git)." \
+  NVIDIA/skillspector
 
 cp "$WORK/UPSTREAM.lock" "$ROOT/UPSTREAM.lock"
 echo "Synced:"; cat "$ROOT/UPSTREAM.lock"

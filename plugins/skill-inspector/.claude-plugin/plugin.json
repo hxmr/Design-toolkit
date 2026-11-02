@@ -1,0 +1,6 @@
+{
+  "name": "skill-inspector",
+  "description": "Security review of agent skills before installation with NVIDIA SkillSpector (requires: uv tool install git+https://github.com/NVIDIA/skillspector.git).",
+  "repository": "https://github.com/NVIDIA/skillspector",
+  "skills": "./skills/"
+}
