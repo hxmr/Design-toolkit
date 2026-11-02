@@ -1,0 +1,186 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:e4374d37baf86a1a01174443d84bd737beb362a24296e2ca63ef92d151bf7ece
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:5b0f17f1d4c05067c202e997ed2731a4dd6a7aea176f69c58c862d2cfd306af4
+  rule_id: RP1
+  file: reference/doctor.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:8f50cc56a16b5fd289c3d07bdc96d97fc4cea1502bd099a3d0ad483db1b7800e
+  rule_id: RP1
+  file: reference/hooks.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:a362327f565195f34cb49cc695fabd92fa3d0042c2faec5cf323b9b29043fcf9
+  rule_id: AS1
+  file: reference/hooks.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:0be24e108ec867bc654e7defc597dff4cf02fe47c7d48db99ff5aa2602b15a6d
+  rule_id: AS1
+  file: reference/hooks.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:cae4fe34c7bc45fdf9af4d6662af0dd92628f932b6e49499a1b185c633af5f35
+  rule_id: AR2
+  file: reference/critique.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:111c4f4d3098c36ca9affa79e30c73f98d4fd57038e3387cb4e9e8887ca85422
+  rule_id: AR2
+  file: reference/degraded/finish-reviewer.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:d6f394414ced5d429588e438ed0b742d9af03c29356440a3d78bb9873a535157
+  rule_id: AR2
+  file: reference/new-work.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:367a1fb0e2a5cc408b664c6921ef81730bae9e84a12399923085a5752329286d
+  rule_id: E1
+  file: scripts/live-browser.js
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:ad09dd6407ac5c04f4990ed4111e2adb3b3e98479993634304de6a0ee4d76090
+  rule_id: E1
+  file: scripts/live-browser.js
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:5e14fec3ef32f1482126a77c36c5128024702e58a5116124a0986322050fecd0
+  rule_id: EA2
+  file: reference/audit.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:d9b2e54f4e699959ed378f3ce532a230e34dd4a8977b7f52a794fa154fb25e56
+  rule_id: EA2
+  file: reference/audit.native.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:4a54acccf6c3b5669aa88bad86cc7747fe8b81d51f02f005a82851babbeca88a
+  rule_id: EA2
+  file: reference/critique.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:3f29dfbee948564c45c065ecf77a0f021b72bd9f0c7fcf199ab3c7488cebde39
+  rule_id: EA2
+  file: reference/degraded/finish-reviewer.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:784cb1c97e1f9b5132097690544c79df45816b4e383ddd539e5c04e57c9505bf
+  rule_id: EA2
+  file: reference/degraded/finish-reviewer.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:f667c7743b21997d8c106d9440c19e18b38d9e428e917a9160c65f567c9fa6ca
+  rule_id: EA2
+  file: reference/degraded/finish-reviewer.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:3cb8b4fe5cd3eedc56e32161939af2e08b83f8c18313b4b3a5b5eb3dfb156e19
+  rule_id: EA2
+  file: reference/degraded/finish-reviewer.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:c48ed515d97d3b65276eb3cd48d9139e3c1d8f6a7212b8c7a504a023791a86c1
+  rule_id: EA2
+  file: reference/delight.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:4e95361dd1123f8f722917022b5f2c9f63051f42cc1834bb873c191949b814fd
+  rule_id: EA2
+  file: reference/document.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:1784de5ec595536b0b55a8255c5fbac7b8480f8c1f79c3178d891bec1120ba68
+  rule_id: EA2
+  file: reference/init.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:b065b5812452f829a86e606ba9d1837d105bf7c75e428113c33a2fae3ce60826
+  rule_id: EA2
+  file: reference/live.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:025ed2002f7960b4f5d2f9ac6979ecf06bfff4fd966fef9de096b1b98f3bf97a
+  rule_id: EA2
+  file: reference/new-work.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:75dce135fc6c55508e365958cb214236ae58abd5925a063f89ff123b1dad2a59
+  rule_id: EA2
+  file: reference/new-work.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:560be0ff1859c08433db9bab8cd94b21376eeec257f3837376d67475f2ef1989
+  rule_id: EA2
+  file: reference/visualize.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:23958b5c4050a84f8f6441e289cdc4148eb4e776f06aa461a04f84f4fba51b1f
+  rule_id: EA2
+  file: reference/visualize.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:e1f612a72530bdf6cd6e9b22957c270e84ffbc3aa9695d9007c2c22a2cbc3aa9
+  rule_id: MP3
+  file: reference/colorize.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:04becc82dc8e764883f3151d2c8b3f4a545687b20357c41be33023ee6c4050dd
+  rule_id: MP3
+  file: reference/mode-operate.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:c068e698e436954b9e8cd1cee7c306fc3a043718db0d93e9fdd7b46afa415459
+  rule_id: MP1
+  file: scripts/live-browser.js
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:d11d44cde14821c90b78fec85c4da71c926277c2fd95b06b78420de8269d32a8
+  rule_id: SSRF2
+  file: scripts/live-browser.js
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:a47d04db79524308f4f63f7a689972decdec1d218a8cff925f0ec4ad362fba59
+  rule_id: SSRF2
+  file: scripts/live-browser.js
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:8b432a66d2c94631471eb3050014967f0e6ae926fd9146c5d746e69159cdbb94
+  rule_id: SSRF2
+  file: scripts/live-browser.js
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:106022c73a4fa1b6d4923c40bdea9bc65879664555bf38fa0a3ffcc3295c146c
+  rule_id: SSRF2
+  file: scripts/live-browser.js
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:2a9fcd921d0576a396237d66cda655188aa39c657c62005598108555428fb385
+  rule_id: SSRF2
+  file: scripts/live-browser.js
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:75cc5ced5848096ed3ab03b7971d4490700f8bffabd1d997793ab30712334191
+  rule_id: SSRF2
+  file: scripts/live-browser.js
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:6a247808d5fb1dba2d15c55008ddd0f8d7b61031d1e24f398d62f8fa194fe26e
+  rule_id: SSRF2
+  file: scripts/live-browser.js
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:dbc594b3fffb4f6c807b909e2f7b75e61da97594066e42c04e5fca5d64dd0d92
+  rule_id: SSRF2
+  file: scripts/live-browser.js
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:37e32bd329217f142004ed4e047642077ac8d6b9bb6223c08c6517701d6dfc40
+  rule_id: SSRF2
+  file: scripts/live-browser.js
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:4fc58669415345792dbd1c017219737de4bd6c01bc197ba97da9bb1a35bffef7
+  rule_id: SSRF2
+  file: scripts/live-browser.js
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:1450a701898815c3747077ace8a8fbc1f4fe77bf32d4c3733db65c75b9d3d038
+  rule_id: SSRF2
+  file: scripts/live-browser.js
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:e78b09470d940cd4ff55883828e3be20f68b0809347adc48550434ad74734585
+  rule_id: SSRF2
+  file: scripts/live-browser.js
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:2a2c3129521e9967061c7b6a5710c283019461754ad333bb5d35c56862019ed1
+  rule_id: SSRF2
+  file: scripts/live-browser.js
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:922661f819e485d20cc4cefdfe4b3e800874ac3c71b70629f8d3f462d1049e45
+  rule_id: SSRF2
+  file: scripts/live-browser.js
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:cc6a7b489accef4ad07bbbe8c61be975542e2d034484687b1d815bd3c0a15b55
+  rule_id: TM1
+  file: scripts/live-browser.js
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:ae630f2cbcbc385a758b7398a2cd20af91c13a23405f1d9e950df0b89fbc9a5f
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:e4634da308ecbe09b22e6b70a7e814fa0b048a95ab04b7c0000264bfc142d1ab
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'

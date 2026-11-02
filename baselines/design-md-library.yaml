@@ -1,0 +1,170 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:44b761f3e2cdfdaad0b3527a0f603e678fe2b837439352140a16fc1d14b15ed6
+  rule_id: RP1
+  file: designs/airtable/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:ea7826c043a0d71e39a3064b29c80264135b9b51bca08b50d6d3adc6d72526fc
+  rule_id: RP1
+  file: designs/figma/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:3ab81cc623d59ba5d1b9ea324a1e3227b1badff4a929151ee6ace0ca5365b10a
+  rule_id: RP1
+  file: designs/framer/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:5e8c0d7f1c6a0a31b3a62845939ca4002293e788b93fd89b621d0a8e41ac6604
+  rule_id: RP1
+  file: designs/hashicorp/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:4a30c4034353e7c564356892d69c4c2a82640e1c97363b16fdf24872d0561d43
+  rule_id: RP1
+  file: designs/hp/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:3ed993627608d697014aa4c2b617c534d0534a4f3d37c1a5e017bd6cc1f5b513
+  rule_id: RP1
+  file: designs/ibm/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:b8fac447a6a92c5041b09e397f11ea21d7c54e548596fc30dec0de4f4bb74068
+  rule_id: RP1
+  file: designs/intercom/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:0e6b266ceec9fcc555e618076e6e9e1bc6e11138f01bccad5fa97502ed110204
+  rule_id: RP1
+  file: designs/linear.app/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:b9d9020129829665f69ddf27f1999abb0611a91dfa3e4beda5a65f901ec98bfb
+  rule_id: RP1
+  file: designs/meta/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:094a781f978b3fe08384c2f498870183e2ef878345e1c86b9f1b89d6cbc4525e
+  rule_id: RP1
+  file: designs/minimax/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:ef38896da511636d130059866d716bb43d980ab0cd8063d0168df9bbd3402447
+  rule_id: RP1
+  file: designs/mintlify/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:93b48baf53152c37ae6debef23f5bf37602ee4c97b3a016efbb9004a8cda47a0
+  rule_id: RP1
+  file: designs/miro/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:63d03cc6f2f881e7c784defc05ba0a9cdcd513a861c16cc32fda245dcfad5907
+  rule_id: RP1
+  file: designs/mistral.ai/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:9d4121ebba78cf55aaebec0fb16b546792379e99a101849f9dd75e8cec2bdbad
+  rule_id: RP1
+  file: designs/mongodb/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:5611b3d3ab78d2460cf2e6fee5e5dc92d21946ea4685f8543a92383671d57fc7
+  rule_id: RP1
+  file: designs/nike/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:7d8c563b94e9b4c54178ae184458f1e6508b5e1c96bb95a504f12bf83da76260
+  rule_id: RP1
+  file: designs/notion/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:c8d42246a3f0cff0e6e162686b2cef2454a1ffca4d34c00ce4c9fa6ca4dc9c92
+  rule_id: RP1
+  file: designs/nvidia/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:ad789f06ed4884955b653810a4b8a2e69a62dcc2397b50e6f0e4bb758258c2d6
+  rule_id: RP1
+  file: designs/ollama/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:c3ad3af45d031d0f51ae0bda066aeb1a61eab93c0ffcd0b715f26487105972ab
+  rule_id: RP1
+  file: designs/opencode.ai/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:0327bdb1b61fbbd45d20c06244d26fdbaa026b9676404e84881cb2ba03445c74
+  rule_id: RP1
+  file: designs/pinterest/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:227d6e52c5c3d578fba3551ffeeabdf8fb96342e8d4defe38a02db57b3addd13
+  rule_id: RP1
+  file: designs/playstation/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:63af0034cbd5fc88528935dc8173855722c616eeb2d2c0664dae0ecac9efa383
+  rule_id: RP1
+  file: designs/posthog/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:3899c22d32e3741c9bae08a9c9df5bab11acf78db5052edb7fadd22c35b0fe7b
+  rule_id: RP1
+  file: designs/raycast/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:79c1c8d94847fe3157b1ba431d9892a451cb00e1235925877e0af58013184fe3
+  rule_id: RP1
+  file: designs/renault/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:226582b197cd110e5deb9415688bd9231f15c42685a9f87f953bcc66553e1461
+  rule_id: RP1
+  file: designs/replicate/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:a0852e30cd2984764245b6ceddda2e265e70b206d7943ae001e9c5cb096fa93e
+  rule_id: RP1
+  file: designs/resend/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:92ac7cef33dd63b88d9ddcb88505413963b477ff3cd3ae2738008cc99fb0afb4
+  rule_id: RP1
+  file: designs/revolut/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:bde0b7c292e21cb2a709b3690751d3a3ac46f9478e4a1eb270c13f6fff410f21
+  rule_id: RP1
+  file: designs/sentry/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:88e7604471ee0e554f4bf75433314c3dc8361acb15f6fe9aea893d1d1b403c74
+  rule_id: RP1
+  file: designs/shopify/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:bfcae9229a67d7f723d40a02917c21cfda3bb5fb5770238dcae2a527ae9a53c1
+  rule_id: RP1
+  file: designs/slack/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:10a6b6a0aae46093fe0aef34e460c809539fdd6c6bf0257dc8751531669c5315
+  rule_id: RP1
+  file: designs/spacex/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:7e00b0825be996fe64ae597a886f9b9d7e48f4ad6f0aa146c4902323489265f9
+  rule_id: RP1
+  file: designs/stripe/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:11148d91b47c81f91f276b2791855deba2ec834c14d20f3e6f2149abd6a4cfa2
+  rule_id: RP1
+  file: designs/supabase/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:46cb327d2380e8029dce99969bb7b772de72f8f912d78f88320c4e32dcbbe404
+  rule_id: RP1
+  file: designs/superhuman/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:5ec80f325780e975bce5ada6cc5541d75619a384f9443eec0138299373f30696
+  rule_id: RP1
+  file: designs/voltagent/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:e62d9973d35fb4a90fd698162daf47d7a0f2da7a709b84f7dc0b25db0c853e85
+  rule_id: EA3
+  file: designs/airtable/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:04ef027cec9b6950e32ada13ed763c66b723c31bf09e0cdb0d657abc85987113
+  rule_id: EA2
+  file: designs/sanity/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:2ae676155bd2cd9ca815d3cf5f56a5dbd220399b21f3db477c7b59a95e7f61f9
+  rule_id: MP3
+  file: designs/theverge/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:95a2e52c1dac4b7393ba1df8e7969ddf3f2770d9fbdd9377ab121533272d05a6
+  rule_id: SC2
+  file: designs/ollama/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:7ec786fddd1f7cfe22b72f8c93342b2f581fe153fb1404525cdb305646fba001
+  rule_id: SC2
+  file: designs/opencode.ai/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:baee6892ec66c54411f2c19e8d2ec964892d82ee774d3c0799a7957c3a4bde80
+  rule_id: YR4
+  file: designs/ibm/DESIGN.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'

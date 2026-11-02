@@ -1,0 +1,826 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:9878ebad8c3d7ef9d6f2fc19ad1c141d895b60b0758a84430a2d25f390c8068a
+  rule_id: AE4
+  file: CHANGELOG.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:196bee095168c7cca1633b6e52aaa45e01331a60356138c0e57332c3c31c25d0
+  rule_id: AE4
+  file: README.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:f1198749455ef66d33df6ed578cb017da4af0ba6e544e6f252ff2ae13c8fc13f
+  rule_id: AE4
+  file: ROADMAP.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:7a797b991c34a10bb6e0bc42b83e38edc9998651b8c017abcc01294d6fbb021d
+  rule_id: AE4
+  file: docs/RESEARCH_TRELLIS2_TO_IMG2THREEJS.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:c2bd83e204ecac9d2180d8ebaa033943fc6e131d1db5de198d75d2df2d2e1db4
+  rule_id: AE4
+  file: docs/pipelines/character-rigging-animation-1.5.2.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:08fd0017236f14c170a8485bc95f2c7d6343cb03d67fea6877e0b8a787f35d52
+  rule_id: AE4
+  file: docs/standard-prompts/glb-force-measured.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:3602336ef4e9d6eaee838dd4281059ce13614edbd2bf3018f188d0c102c2b9fd
+  rule_id: AE4
+  file: docs/standard-prompts/polish.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:9e37b4319ab96ef54b0b59fd65f2f643f26c6d3ac84d70cf74789b5700d8c5a5
+  rule_id: AE4
+  file: forge/_shared/color_metrics.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:0b3e93a21638cd29fc619a80f7b6aba60e575fb17f87d64df00c22b61209d023
+  rule_id: AE4
+  file: forge/stage1_intake/extract_part_color_recipe.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:4f5490b87ab5825a33b7ce23d00fba0a469393032a8848112fbfdfc4e57ebc05
+  rule_id: AE4
+  file: forge/stage3_build/generate_threejs_factory.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:60e50ef5e3bf908cdae23b3c3e8ecf150b6d55589bbf717197edadb422ca7bf1
+  rule_id: AE4
+  file: forge/stage4_review/divine_eye.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:9ac4c08bb593cb888b18c7551fcdb24913f4a0df1f16178c10d0e947284d7d5b
+  rule_id: AE4
+  file: forge/stage4_review/mesh_reference_compare.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:73f381655cb495ce5e5b7632f811baffc997632487fa197b892f1cf1f3a84cf5
+  rule_id: AE4
+  file: forge/tests/test_color_metrics.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:f339651f4aa884f5fed9d10643a18f918baa0171e3b950da865a08dabd823601
+  rule_id: AE4
+  file: forge/tests/test_tier1_diagnostics.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:cdd4484d7e8d6a6a981d121d33258a9a444387ac7a720dff25dcb963f77bf0b3
+  rule_id: AE4
+  file: grimoire/review/divine_eye_microscope.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:bdce2303b9575e44b4d9b169f008f4bf16c8e9bbc19abe444f4fadffa684f090
+  rule_id: AE4
+  file: grimoire/review/self_correction.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:56daa00f02518593ed71311386b3838d9d39853e71bf93eb7375f444cd1a8a98
+  rule_id: AST4
+  file: forge/stage1_intake/build_detail_inventory.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:fe85523365907f14ac63b145690b720253c9b5a024fd4c6a2990e0d812e0f146
+  rule_id: AST4
+  file: forge/stage1_intake/delight_albedo.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:6f06abbca16a8a267e9fb5dace8e13475662b83ef80e71e06044fa62526c2644
+  rule_id: AST4
+  file: forge/stage1_intake/extract_landmarks.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:d1605303027f059aa12682688191f9a60366d36c8fc942d052efbad2fbd692b1
+  rule_id: AST4
+  file: forge/stage1_intake/extract_pbr_evidence.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:a9d876174470f4059ad6982a52f05e76c23dda127ed3f7987f871e2e6bbdb320
+  rule_id: AST3
+  file: forge/stage1_intake/probe_glb.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:2079602b986cf4281d6588f33b2a88e8e4479eaa7c774ee3fe776f1acf3a07b2
+  rule_id: AST4
+  file: forge/stage1_intake/run_vision_adapter.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:d44d6402d447aff8fae00a9933ae54f32d8746b22066383c2b88a3bf083e3e67
+  rule_id: AST4
+  file: forge/stage3_build/emit_target.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:4c17c2b59ff0d9423cb06ecd96b5417606a26a60dd71bd4da59496e390eb65d4
+  rule_id: AST3
+  file: forge/stage4_review/compare_region_passes.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:b41504ea73e90928ccb46f6f8399f333e8fb9af1d464e312d56d7a5d8f449f5b
+  rule_id: AST4
+  file: forge/stage4_review/make_comparison_sheet.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:69ee4e8c4c102e7c3681b1a9d3f0166ee3f27802deed37545d0f4c35a40b8b07
+  rule_id: AST3
+  file: forge/stage4_review/validate_render_profile.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:e23ab2023e8c172967635907c89d8fcb9bf7dc456a114f7fd4ffe820f66038dd
+  rule_id: AST7
+  file: forge/stage5_rig/action_design.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:f90887b1725159f9565a270bba0bb7d953e85036922b83bf33ea8efce57e0489
+  rule_id: AST4
+  file: forge/tests/oracle_support.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:757be2aa1c0d32f068b93fdc2485284eda2940b68db40b1fbf04b65dc158df3b
+  rule_id: AST4
+  file: forge/tests/test_action_design.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:46a0808c71b0ee6d15194b245bd99e65da85e7dc2a46a3620726c30007ffcd10
+  rule_id: AST4
+  file: forge/tests/test_albedo_color_space.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:04c94be4e5c6521a60e6f7ab0f3d97e678c9e74d8f0315522cb6415ce1cf9d55
+  rule_id: AST7
+  file: forge/tests/test_camera_fitting.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:636d3e853789307b3e03af97326b82596952130ee6c7e4d54a6b66a86e16f9cc
+  rule_id: AST7
+  file: forge/tests/test_camera_fitting.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:ef521ba3a0b42c4e3b1e160c8acbfbed66204d7634d827b8847c3a29e32a35d4
+  rule_id: AST7
+  file: forge/tests/test_clip_features.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:a9604630a71c723211458c1c59543e07c234e20e15d5df5ef085bb3fb0501d56
+  rule_id: AST7
+  file: forge/tests/test_clip_features.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:ce762ea78d76a7e3fc14c97089d97bbd01ea86171206d834d9b157ac209e9098
+  rule_id: AST4
+  file: forge/tests/test_domain_registry.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:d43eabbdc5ea001c727052c2005e2183559cf0a46bc16f4dfd4e532990e4c0d6
+  rule_id: AST4
+  file: forge/tests/test_emit_animation_runtime_tsc_smoke.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:74cc4069d0658b9ccc2769b91280ffaaf3bb751401f7df37b37d530609a2f5ef
+  rule_id: AST4
+  file: forge/tests/test_emit_target.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:79610237414631c3b729bab16b1adfd6a567967d359eda96b402723397481fd9
+  rule_id: AST4
+  file: forge/tests/test_emit_target.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:88c584afc4bc53ad0e209f2030510e6d916f4e1964fb7ab63b8dc57d7d09e13c
+  rule_id: AST4
+  file: forge/tests/test_hair_material.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:51e586dd53d45d26cac042f2de1c50abf3fa0291a0f30185e1443ea13f09d2a2
+  rule_id: AST4
+  file: forge/tests/test_hierarchy_scale.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:b648f3d03131b2d26f979afd0a1bf002445bbb8cfafbefc8fab1f36bbcc6613c
+  rule_id: AST4
+  file: forge/tests/test_hierarchy_scale.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:cb5ad389e69be5de5d100b34d19a7745c59024d30a3916bc127f780ff28bf8f9
+  rule_id: AST4
+  file: forge/tests/test_humanoid_silhouette_profile.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:d8379f8eee3853ec8c4f411da7c861367b0ffe7134f6d4ad0a55a68988862de1
+  rule_id: AST4
+  file: forge/tests/test_humanoid_silhouette_profile.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:b7d998cd55437a65ac9b9dbb5ba94afec9aeea754d4fc3752d196b0d48ee014c
+  rule_id: AST4
+  file: forge/tests/test_humanoid_silhouette_profile.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:774567483872c1eb059d9ead608db7f3613ab651fa49c2ed30bb30d8ceac0bd5
+  rule_id: AST4
+  file: forge/tests/test_humanoid_silhouette_profile.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:99bfd2e469ddfe1b912d2044559dcfca94f310389d88d1c5689209d5974489be
+  rule_id: AST4
+  file: forge/tests/test_humanoid_silhouette_profile.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:c65ad91a7ef94fc1ec21f8ad03e1fc50038e63b2b6b466ada32f6f4f4054e519
+  rule_id: AST4
+  file: forge/tests/test_humanoid_silhouette_profile.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:511fa4d846c3c480cf2351456d00c833c109f017b7f77a8cb341eefd069e99de
+  rule_id: AST4
+  file: forge/tests/test_joint_admission_gate.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:31a276c12554321eaffd52152502cec90c4773f366a6b74a6f82a35683aa9625
+  rule_id: AST3
+  file: forge/tests/test_jpeg.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:c10dfa9494b0fbcfc55da6e419664eadb82138af80a1ab712e2749c3159dc5c4
+  rule_id: AST4
+  file: forge/tests/test_pass_identifier_authority.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:e6c0d3241b5062c8e0e9a7d42cda9d8343e251d97875188df33d1debd054a9b5
+  rule_id: AST4
+  file: forge/tests/test_pipeline.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:a1526c8f5b49fbf625cf20d9e9bfafd97bbec3b024deabd76d19b7dfa9bd41bf
+  rule_id: AST4
+  file: forge/tests/test_pipeline.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:046b170b38269af288d6f0d0510aa82d4b9182636b41c3657c0673bada7658e1
+  rule_id: AST4
+  file: forge/tests/test_pipeline.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:39ea57eb7835935e63de6ceff2f60a1a5482300dd17d3e946faba40d118ef560
+  rule_id: AST4
+  file: forge/tests/test_pipeline_routing.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:775fd88dcf5581c84a3a29afad16981791bd96a12b9e2059901e46c2f513342c
+  rule_id: AST4
+  file: forge/tests/test_primitive_watertightness.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:5eec2ac4fbf44b7a297be22e50e1f266fef5bdb20241ea9d245730c8554540ec
+  rule_id: AST4
+  file: forge/tests/test_primitive_watertightness.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:ccfa96dc6a8e2e37c2532687c7cdaae16e2793d17ad0ec778743615113948cab
+  rule_id: AST4
+  file: forge/tests/test_recessed_and_open_shell_topology.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:bc640d601d15b1ebb13a63382cf5cd668fdb5c4723db6f2c3a654eccf5d26327
+  rule_id: AST4
+  file: forge/tests/test_region_and_arc_gates.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:6f68e8019823cc53221f6eee18036c45e7b67fd895b785e058d83ddd8db27465
+  rule_id: AST4
+  file: forge/tests/test_region_and_arc_gates.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:116f3319a60caf16b0395e188fa132a907330d0be6d832a8dc4e826491cb6ccc
+  rule_id: AST4
+  file: forge/tests/test_release_metadata.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:17092294bda3131465501ce4215d98624b901f5527bc929036355e73465d6f3e
+  rule_id: AST3
+  file: forge/tests/test_render_bridge.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:14cfb4666faedc6392db3ec91c6f077a91cf12d2ac34bffdc55e0fbdbe83d01a
+  rule_id: AST4
+  file: forge/tests/test_repetition_system_scale.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:da358db082d6d20fc329b67caa781904f79c486e1667659748c4c17ea1e57bcb
+  rule_id: AST4
+  file: forge/tests/test_repetition_system_scale.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:85d5c92bf11f56654265937993d448112ebcb9e57e14d36668bf4e3658ba86f9
+  rule_id: AST4
+  file: forge/tests/test_rig_gates.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:7a20e578513f2b44d0cf7b8c8ceaae12fa5e0d7bb927469fe472c717fbf9c4c7
+  rule_id: AST4
+  file: forge/tests/test_rig_hierarchy_emission.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:7345eca44072de52ca6c1b91074a5a5fc79becb0def3817e6e5365a3befbf813
+  rule_id: AST4
+  file: forge/tests/test_rig_hierarchy_emission.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:3a061c14fe7add49c3624a68fb24796f2423723c8fba8bda9888a11a0f63b498
+  rule_id: AST4
+  file: forge/tests/test_rig_hierarchy_emission.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:9c7ab58eb6d23229ca93860e2998cd3dbae80d29dfeb5087d7cfa34ab130d18b
+  rule_id: AST4
+  file: forge/tests/test_rig_hierarchy_emission.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:9bb5e8cb259c794e0891007b727799bfeb36f60b174da6fda979efa60ef72167
+  rule_id: AST4
+  file: forge/tests/test_rig_hierarchy_emission.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:1b6a9e102d1bd2dcc7f2666862bbaa7cbc6629b6599910c0fde45de00879c0e5
+  rule_id: AST4
+  file: forge/tests/test_rig_hierarchy_emission.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:60427449d82a60101fc2a4f14aad7ea7399a877935c82492c5aac590a91f3d61
+  rule_id: AST4
+  file: forge/tests/test_rig_milestone0.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:896315cfe19ad68d60352469e7b434671c776d75a81b6531dd35160d018e3e56
+  rule_id: AST4
+  file: forge/tests/test_rig_milestone0.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:1c342de733d2575d73cbd8444484d563f1f5e2c6ea40332fcc9c1a835cb09da8
+  rule_id: AST4
+  file: forge/tests/test_run_gates.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:e319eca64c8d9ac22c6ae3564aed62dd9b4e6930822c0d5ad705c855dcb4e866
+  rule_id: AST4
+  file: forge/tests/test_run_gates.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:25e0a069ec9c2182c55cb0cb5711b9b94ac910f07910a01623f7b7b19ff772bd
+  rule_id: AST3
+  file: forge/tests/test_run_gates.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:2f6c25cf29655bb78be708b04e2c12107ef13bf35343b946e37cef93e1eb8185
+  rule_id: AST4
+  file: forge/tests/test_sculpt_echo_failure_matrix.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:ab8b43efa2b6335340e3f0e4a7c5a5551a6b206e9cf70889e526cede953a9c59
+  rule_id: AST4
+  file: forge/tests/test_sculpt_echo_roundtrip.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:714727a95201f614ce7fc126eb6d83b59e867c589dd1fae17ebd2c4acb81ca74
+  rule_id: AST4
+  file: forge/tests/test_sculpt_echo_roundtrip.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:add6a31d784df02ec5615d0f5bdb78c40e03b7c071e65aa6c52c6d70fe4252fb
+  rule_id: AST4
+  file: forge/tests/test_sculpt_echo_roundtrip.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:6233240820f372ce8f6754d7930a580f64c98f5a316c4e532ac640e2da18d4d1
+  rule_id: AST4
+  file: forge/tests/test_sdf_primitives.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:f8d5f24b690ebcc9c08d963f8f6f7464b332ad3bb8400af552560af4bc5903bf
+  rule_id: AST4
+  file: forge/tests/test_sdf_primitives.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:0c52720fdd00543fefd324dfcd81bb8b5d35fbfcb38448b6290777ed40ca3a4a
+  rule_id: AST4
+  file: forge/tests/test_search_specs.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:6c90ba1dbcb5f494b332a6ba0fcf5c1f2531be8f0f5a9f42aa8b17b79863734c
+  rule_id: AST4
+  file: forge/tests/test_search_specs.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:39abb7676d908bf6dda9c4119a7b6c26b23fbd758c027dddf5c706135c6c950f
+  rule_id: AST4
+  file: forge/tests/test_showcase_tsc_smoke.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:0724b2a3f774ea14832e347587edb48e92764cccc635e22c91667b24cd84fdf6
+  rule_id: AST4
+  file: forge/tests/test_showcase_tsc_smoke.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:840281f42a34298bfc42f4a9bd3e62e3c9b6355b77d95cfc4b91b76be39a8b2d
+  rule_id: AST4
+  file: forge/tests/test_stand_proud_emission.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:4e5e8ffb556c27c67d1a8e6a6409913ad70c88251ffacf54254a6792a6338fd6
+  rule_id: AST4
+  file: forge/tests/test_subdivision.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:2672f16652c3337d10c79cc9738ba340c0580c9dee8dbdd2aa20831f8516c100
+  rule_id: AST4
+  file: forge/tests/test_subdivision.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:2729c96aeb182b36cad393e299e6bd5469e02ecc3ada982d94b7c52be1618ea4
+  rule_id: AST4
+  file: forge/tests/test_subdivision.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:a16e471dd80c4995f28f4fd47dc21153afeab1493694194f8d1593cd9ad7da0d
+  rule_id: AST4
+  file: forge/tests/test_subdivision.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:6039713fba96725862dedd9a77f4fdd0144eea1bf1c5531e77b314b3cbe228b1
+  rule_id: AST4
+  file: forge/tests/test_subdivision.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:d837e8810ebb1f125745d2c1ae3c582d9085f4bfa7729219df5d6024d92525ff
+  rule_id: AST4
+  file: forge/tests/test_subdivision.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:d574a38fee728949e6bbcba86a56d5d32d39d97556c9e03743fbc04a9e225633
+  rule_id: AST4
+  file: forge/tests/test_subdivision.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:4c8d593777ad712ca5a0aa23f1bfcf6a9eb8285949aaccb84d224f426de0789e
+  rule_id: AST4
+  file: forge/tests/test_subdivision.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:5cf59ce0e174e6ea13e2ccfcc9988c8e19a0a50a34673159ac5c32c56a50708e
+  rule_id: AST4
+  file: forge/tests/test_subdivision.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:dc6b4aaad98972bf1ce4a3a58f68c9ec660285e8a2fd87e92d0ab9fd91772158
+  rule_id: AST4
+  file: forge/tests/test_subdivision.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:beb90853dc85ec8bbf966ee4ec174fba2b1deb685f47be96346be508067626a8
+  rule_id: AST4
+  file: forge/tests/test_subdivision.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:becf456aaf9342c6af1064858fa0653521739e8e1a421c008afcd813ff0f023e
+  rule_id: AST4
+  file: forge/tests/test_subdivision.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:3fd1f2bdd6e4674b3d16620f2b0bf7bf0fa74e11a0673c057f6a0bd1e6dff5a9
+  rule_id: AST4
+  file: forge/tests/test_subdivision.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:7a8a00c40e397b7bdd63a0fd7a90be27136fc6d1c4f59f73915073efd4b68afe
+  rule_id: AST4
+  file: forge/tests/test_suite_integrity.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:46094c0d6767e770590405bbc1d14e6eaeafe1ba4453e0f179e0b2c1d9392889
+  rule_id: AST4
+  file: forge/tests/test_tapered_sweep.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:5562ec4a40b9a91cce2164bf8c9146271914e6cf8e5ad7aefc83495caf714e59
+  rule_id: AST4
+  file: forge/tests/test_tapered_sweep.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:79693fe0e84b3efe7687d4da932365976a4382d0d1fda337129e8d83ee8aa58b
+  rule_id: AST4
+  file: forge/tests/test_target_reference_conformance.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:b494cd78f88e218e11afed6c6c66270a916ab387747f3d52525576468e85a604
+  rule_id: AST4
+  file: forge/tests/test_vertex_paint.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:dcf26bf033e9d9f630d0f0e4656c1efd124c4bd95b22d58cf673047a4092505d
+  rule_id: AST4
+  file: forge/tests/test_visual_hull.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:6bd5e825074dc7db25d0cc947c8f22e80f273fb5813f713795825bdcf617c30b
+  rule_id: AST4
+  file: forge/tests/test_visual_hull.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:b3d4c4b38f50cd8054701fe5f015ac33ac80fb6fa5ab2f969a7675463b89578c
+  rule_id: AST4
+  file: forge/tests/test_visual_hull.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:f4840126372a96d248709625a6f67f3c9f1d04bccb51444820a8bfc367c258ce
+  rule_id: AST4
+  file: forge/tests/test_visual_hull.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:60509c0b9e55257e05c663c95597e5e85988c05df1ce46c791b2ffcb4843d7b0
+  rule_id: AST4
+  file: forge/tests/test_workflow_state.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:4e8f36e532177db98950dd062d4ee0c20ec5b41aae9347bd4fb19b39f55fd60a
+  rule_id: AST4
+  file: forge/tests/test_workflow_state.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:a656c1104a653512070f01adc35f0a151ba71ff54fd24c110ae6b75a366ad1eb
+  rule_id: AST4
+  file: forge/tests/test_workflow_state.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:19ab769d10469475d9b26723c806ac4d62899b58ef97de5d4cde1976db6089e2
+  rule_id: AST4
+  file: forge/tests/test_workflow_state.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:cc180878a064e0397cd9e9966d32589eeff71d51936f844a5efa12a89e783909
+  rule_id: AST4
+  file: forge/tests/test_workflow_state.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:c612c62a7b5663fd52266d798e176270ac35a984ce9e12d4582225d5ba8e248b
+  rule_id: AST4
+  file: forge/tests/test_workflow_state.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:09bc0bf26c6fa6b2bfa99b28f80da06e74962a6f4f9025eaad7c2e50cb236878
+  rule_id: AST4
+  file: forge/tests/test_workflow_state.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:bc799eb592fa14988d3631ca6eb56d496b9dedcaa7982bb88477ed7a192fcf13
+  rule_id: AST4
+  file: forge/tests/test_workflow_state.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:5bf75879306dc9559f1f8387281a2c41a5e8420484aa0c32fa777ad261efeb65
+  rule_id: AST4
+  file: forge/tests/test_workflow_state.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:30ae962485532e43e7db0373c728c1232d018e1ddd3d1cc14882e9a01af5967b
+  rule_id: AST4
+  file: forge/tests/test_workflow_state.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:9d8d5a7e9d500a07d49656972ddefe49811723067c94d414286d7cf9063f91aa
+  rule_id: AST4
+  file: integrations/glb_character_pipeline/python/export_sdf_surfaces.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:fa7b900d7aac71ea2cb2b86141a157608668183f20a16defc9fabe441e625787
+  rule_id: AST4
+  file: scripts/ci/mdcommon.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:f809e6ab4c5cc7fa06f39104b8446de0ca1767f96f3573b4764c7e2059457146
+  rule_id: AST4
+  file: scripts/ci/mdcommon.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:61029656b21dac177102d17bd421797fe0765da90bdc0ca9ff073e3968ae3708
+  rule_id: AST4
+  file: scripts/ci/pr_scope.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:9986d5c3fc888c389657f18ebdf21c7f65c98106ae2362be4c5ec07d0ad389ed
+  rule_id: AST4
+  file: scripts/ci/pr_scope.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:7e35d92effb9d5859feebbf4d7008484852eac51e88da19cc669d304563f6552
+  rule_id: TT2
+  file: forge/stage1_intake/run_vision_adapter.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:435b7d7b264e4c004fb8cf0d0c00571d72dc113caf3f3834070dc9f09b6343e7
+  rule_id: TT2
+  file: forge/stage3_build/emit_target.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:57e936d42dae09115d0d9c26c1e8e9a8fab1f755badd4528c738ac332b5081d4
+  rule_id: TT2
+  file: integrations/glb_character_pipeline/python/bake_atlas_uvs.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:9ce1d2e7bc080d79072cb271fd5bd03d0fb11abf4fcdd6722d6d05fdc988b9c1
+  rule_id: TT2
+  file: integrations/glb_character_pipeline/python/build_cross_sections.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:5d704c300257380ac0911f4a831895189d908b2d8f914d5698268eb6fe4f60b7
+  rule_id: TT2
+  file: integrations/glb_character_pipeline/python/export_sdf_surfaces.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:9e25bf6a64b3545e626c19bbd6338d22eb7a5a87ca3906bf3facea8a638476a5
+  rule_id: TT2
+  file: integrations/glb_character_pipeline/python/export_sdf_surfaces.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:e93932e1577097510b9c9c0782d67fe37612e8cbbe79c8a6f826ffc0e92b9b6e
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:8cc0b4b932321d2bff779b2d3b5fd1c3e4c5f843f7d31cf96ef3e5e9461d91d8
+  rule_id: RP1
+  file: README.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:c5bb24fd2c06cf5863764a649090b10088ec4e5dd627ee2445708ea5d577ccd5
+  rule_id: RP1
+  file: README.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:13a499e182365619fbf0ec5aeeb2f371e8cccb37e3f0f8ca122f1c3aa5239688
+  rule_id: RP1
+  file: README.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:035e7baaee1f71a27c6855ba5ee9452468d709eae1705d7ec5d64e2a4f457ea3
+  rule_id: RP1
+  file: README.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:9aa888b4f8501f535cc030123e9bbe01701bb2a7f023878f9ed1d8009577605f
+  rule_id: RP1
+  file: README.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:a37561360bf8b242013936de005022cd4586307a4e9de086aacbbf1e6f2581f6
+  rule_id: RP1
+  file: README.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:f6a7e78228414e9a1227105fbbe47e933404c2102dae74fd854dd45d8c7e0110
+  rule_id: RP1
+  file: README.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:faeb5f6926a084c7148f783c69a86907c3669ea1cf29945381828c90769c685b
+  rule_id: RP1
+  file: SKILL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:8d18183c2f36b50e68cfd540334944db83b01752e066f6c9eb43526f346c6183
+  rule_id: RP1
+  file: docs/GLB_ANIMATED_CHARACTER_PROMPT.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:1dfb141507b345024c3fe50e1edb0600f3a886a36ad0e2ac98d3ffb854fff4c7
+  rule_id: RP1
+  file: docs/GLB_ANIMATED_CHARACTER_PROMPT.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:e822337211aacd078776e9d0668e57e53f305d648e90cf969c64e3245052e968
+  rule_id: RP1
+  file: docs/GLB_CHARACTER_PROMPT.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:11a26bf200db30039075bf45ffe7289eb188314c1d2e5fcdc8f0428973049607
+  rule_id: RP1
+  file: docs/GLB_CHARACTER_PROMPT.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:70d3b4c03dd8a5c29a7eace14a98db29a996074b4e60697cf15ec99ca8a6e797
+  rule_id: RP1
+  file: docs/INSTALL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:ad023e26f467164b5da385c97c3b279a0b7c93efa0441b72bae0d0befca8965b
+  rule_id: RP1
+  file: docs/INSTALL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:5f75c82e1ba2c5f0ad48145455cd776eb208b18245f3d4733c0eef8b70428ebe
+  rule_id: RP1
+  file: docs/INSTALL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:cf7692bd17c891363595c79429e1834df4e2dad2fe7039cef94c2d14f5583707
+  rule_id: RP1
+  file: docs/INSTALL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:40f2d2bc088007b370736cbddc089ea8ef4c83cb418980c5a82fcce715a51e31
+  rule_id: RP1
+  file: docs/INSTALL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:25c817949fc7e0a6a7c628267a2ec00dcb7e0369c33524d702124e258fafa991
+  rule_id: RP1
+  file: docs/INSTALL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:b8ab634b25eac405e09df7b045035616b7960852cad2eb172dbccef378bb7def
+  rule_id: RP1
+  file: docs/INSTALL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:d83526730c800dfa2ae08835cdc5bf08b15763b4c822176e80bfa75f9a3f6d83
+  rule_id: RP1
+  file: docs/INSTALL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:b8041dd592af7d53b0022f6870976ca364112ef43a85003e6865ee4745055e67
+  rule_id: RP1
+  file: docs/INSTALL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:6dc86b1c8eebdb60f0bde1ff78fb8218b8b920dafa1220ac172517384f27a0a5
+  rule_id: RP1
+  file: docs/INSTALL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:a4ef890cad99b7d966033eb2f576f60e04fe487ed0d1a2b62f7bcb4513197b2b
+  rule_id: RP1
+  file: docs/INSTALL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:40740765f5e911ca51a96980babaed7db677a928e8b77057e4dc86e58753f211
+  rule_id: RP1
+  file: docs/INSTALL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:22871239fe28a318f6cc773f3cfad0c4943ceda6273af2953cfb39334e9b83bf
+  rule_id: RP1
+  file: docs/INSTALL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:fc12578a9d1cccb1caed3d75ac43779155e7f02fcfb2ee70065dcc83fc63e738
+  rule_id: RP1
+  file: docs/PLUGINS.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:3b95af3c804b6ad8b34b5eb28e73be31a1dfad09b29e16813d819e8bc25d276b
+  rule_id: RP1
+  file: docs/PLUGINS.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:f4e5a6b8a47ca638e8e95a012bc31358568f97490d86596bfb04ebaaed2b0531
+  rule_id: RP1
+  file: docs/PLUGINS.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:5d5411b04f11866dece1ac53fe9f062aaab303b4421004a3bf6ec4c5da862d6d
+  rule_id: RP1
+  file: forge/tests/test_emit_animation_runtime_tsc_smoke.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:29d35b6c8741610c8df4b6aefce879d6cc775600140d4394dbf97810be3e5781
+  rule_id: RP1
+  file: integrations/glb_character_pipeline/PIPELINE.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:1d8222173f03e7039d9bdee52f39f693c1be68e4317f47be25c87e49f7d28a64
+  rule_id: RP1
+  file: integrations/glb_character_pipeline/README.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:6c5b53b6df91fc6023b7a3885155ee296e2c5b2e98037a9466278874962fd212
+  rule_id: RP1
+  file: integrations/glb_character_pipeline/build-character.sh
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:c32b17f2bac9e9abdbb3b843ea2de4e0a98aaf537bffedeb821098a7bc0a4a73
+  rule_id: RP1
+  file: integrations/glb_character_pipeline/build-character.sh
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:2246f21346e80080006afe9fac16826c938d43c353db8817f6813e7538e3146d
+  rule_id: RP1
+  file: integrations/glb_character_pipeline/node/capture-character.mjs
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:1046de8e10afeb661a58ff5ab7e51ff89205a383ae300bd858edddfd91052ea3
+  rule_id: AS1
+  file: docs/INSTALL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:fa49933945bda6fc7f20edb807f1faa434bf947c8fa5f3b0a81aee1dfc2ff8f7
+  rule_id: AS1
+  file: docs/INSTALL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:c243ba9adb1f5b9a62bee51f70be9d35370ef02b658139fb8b2bb26607b94e2b
+  rule_id: AS1
+  file: docs/PLUGINS.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:5df6f239a0602d1d50f95be93c42563d49714ed3c7aad066336a2404af55483e
+  rule_id: AS1
+  file: forge/tests/test_sculpt_echo_roundtrip.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:ac0134aa934988b8b8f0ab00a56e702b20ed82463d5baa242824eb81674e6470
+  rule_id: AR2
+  file: forge/stage2_spec/new_sculpt_spec.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:3eb3078553614c7487914029b7d99a0a658cbf0561e2a42cfafa6bc2a57abc85
+  rule_id: AR2
+  file: forge/tests/fixtures/reference_target_conformance_spec.json
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:2a034c47417665a74e759b840774d2c96a17afef631a625de9edbe5627a3636d
+  rule_id: E1
+  file: README.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:2970477fafc4d70ddf343b13066fe3548a1c15bd0d69fc8d830bc432c4a32c6a
+  rule_id: E1
+  file: README.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:f680c3d364aa93137ede6fbe2e85acf4ac9828c70645019a6d048ff527117b99
+  rule_id: E1
+  file: README.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:03051ce67b18d653b7783af06c2ebe7424e2b98c3169ce290bdf654b138a885b
+  rule_id: E3
+  file: docs/PLUGINS.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:11b5b58dbfa68106768dcc7b98be90dbd2b66a123d38448bd2b8623ad8abd6df
+  rule_id: E2
+  file: forge/tests/test_domain_registry.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:43909d9bff9d31d8056927156d60cc276d86864569e17e338ae0cf0a91ca2b49
+  rule_id: E2
+  file: forge/tests/test_emit_target.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:daecf685ab81dab7179259f3d5ad908ee24a774bbeea8c58805a32a33b210299
+  rule_id: E2
+  file: forge/tests/test_run_gates.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:ddf65369466b05d837ea2c48454a8e7c5b72fc89c06f4d6b92b2c6b0db2d1b48
+  rule_id: E2
+  file: forge/tests/test_run_gates.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:c6fd79f57433a189f1a3517df626d5c2c1d9612fd3fc2679f832b15abc66f056
+  rule_id: E2
+  file: forge/tests/test_sculpt_echo_failure_matrix.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:0c5615b16f2fe85a536d4fe0288dbd98a54bf378abca46fbc2f821c5cd8f5f6c
+  rule_id: E2
+  file: forge/tests/test_sculpt_echo_roundtrip.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:f051233548a770bb2d7c1737ca3f6c3586727bde40d23f6222b973e538ac3c30
+  rule_id: E2
+  file: forge/tests/test_search_specs.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:c023df04c54f6307c516b958c41298efe004d65b2d0b4128eed7a81dd11d4697
+  rule_id: E2
+  file: forge/tests/test_search_specs.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:bb0d93886b76da044108ef06e3426fe98fcac509fe5d16acf5b736d80ebf9c62
+  rule_id: E2
+  file: integrations/glb_character_pipeline/python/export_sdf_surfaces.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:2b7bd0922d575aa3b70b5ce0a4457cc03fe29d52593a5b7778fc6a4f126b8b3c
+  rule_id: EA4
+  file: forge/stage3_build/uv_unwrap.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:c8a0087c4cef0280c8b63326c4bd562bf7df3446c8a8810e0b5cbd74d1b5424c
+  rule_id: EA4
+  file: forge/tests/test_targets.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:a55777007eb6cb536c7e219dad31034e2846ae902f22d8b50e987dc666758a42
+  rule_id: EA2
+  file: grimoire/intake/local_spec_search.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:ef687a6d15bd22857c2d128f75dc3007bfabf894de3d03455eed7510032dd82c
+  rule_id: EA2
+  file: integrations/glb_character_pipeline/PIPELINE.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:a8cfe2f831981e873aad96e99d4659564007ce3ae7377f52d1271da07f1f682e
+  rule_id: PE3
+  file: docs/GLB_CHARACTER_POLISH_PROMPT.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:f5adba4c0a474db9e69430534749f4dca50da75924f329cda2f74f29d27441c5
+  rule_id: PE3
+  file: docs/GLB_CHARACTER_POLISH_PROMPT.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:ef4e696f894c5321c9350f9ce71d73e3373cf154d5606948c1e25dbf0ae374c6
+  rule_id: PE3
+  file: docs/GLB_CHARACTER_PROMPT.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:aa7893649635a4e33b62179442466c58f2a12af026792a60fcb2fdf6937d755e
+  rule_id: PE3
+  file: forge/tests/test_targets.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:3f7ba029670aa2ecdf33a6521f2265f3c6fe2235c0a952d20bf118621741620c
+  rule_id: PE3
+  file: forge/tests/test_targets.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:bce172fa69c6170572af5641d9ad8b9292c8922f4755bf1eb0d10c044dab7f3e
+  rule_id: PE3
+  file: forge/tests/test_targets.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:6a04920a3aef22616423cbed658ab38b8077cba0d4601b1b6763f776e0d7a724
+  rule_id: PE3
+  file: integrations/glb_character_pipeline/build-character.sh
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:e3bedb8220551862c09607f94762972673da9529bdb7066bc279ac472006638f
+  rule_id: PE3
+  file: integrations/glb_character_pipeline/node/encode_surfaces.mjs
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:ec4cca38ec89bf6488550712efbf0de63433af69be5e744e9c28458545ab7f26
+  rule_id: PE3
+  file: integrations/glb_character_pipeline/python/export_sdf_surfaces.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:fa3cd25f87c87dedf166dd17dced6f19ef58d3e47747843d701f8c2f3de0ba4b
+  rule_id: P9
+  file: forge/stage2_spec/new_sculpt_spec.py
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:d602a1220173d65a452536ce6c7077eb0d3c5cf05fa93d1b770bb982ecff20c9
+  rule_id: SC4
+  file: integrations/glb_character_pipeline/pyproject.toml
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:a8bc6a9f77e40492c3d3b6338c634a77838013b1208f6e4c9c38786344667e33
+  rule_id: SC4
+  file: integrations/glb_character_pipeline/uv.lock
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:6c57f84fe92ecf5d74d7c145170d612cd5c892329dc80718a260c80ac7b3731f
+  rule_id: SC4
+  file: integrations/vision/pyproject.toml
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:1b430856687f4c3df5dc9fcae04ca1421ca3a3aa0ab1f53e67bf1537c4468dcc
+  rule_id: SC4
+  file: integrations/vision/uv.lock
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:a76c4eb30c01cd5be4db1d371f0bbe8c8ce7171c73fad69b4ca9120c983b9556
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:adc23cee3dd4c862f213f9c812b5651c232c5f03260f9fc188d578e38f1da8f8
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:6e352824957b2c5931a4cb47fb5184f5f21d2513234e1b995e6e10813ec1708c
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
+- hash: sha256:d17a691bc1aae99fa500d2178038ffa24ff5dedc906bd627506fe3807e5a7435
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Reviewed 2026-11-02: documentation, data files or test code; no real risk'
